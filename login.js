@@ -16,7 +16,8 @@ document
     ) {
       localStorage.setItem("currentUser", JSON.stringify(storedUser));
       alert("Login successful!");
-      window.location.href = "index1.html";
+      // window.location.href = "index1.html";
+      window.location.href = "index.html";
     } else {
       alert("Invalid username or password.");
     }
